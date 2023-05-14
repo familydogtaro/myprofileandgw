@@ -35,12 +35,17 @@ li {
   padding:10px;
 }
 
-.contents-item image-1 {
-  width:300px; /* 幅を指定する */
-  height: auto; /* 高さは自動調整する */
+.carousel-item{
+    height: 32rem;
+    background: #777777;
+    color: white;
+    position: relative;
+}
+.container{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-bottom: 50px;
 }
 
-.contents-item image-3 {
-  width:300px; /* 幅を指定する */
-  height: auto; /* 高さは自動調整する */
-}
