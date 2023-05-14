@@ -35,4 +35,6 @@ li {
   padding:10px;
 }
 
-
+.card{
+  display: flex;
+}
